@@ -21,16 +21,7 @@ const Chat = () => {
 
     const notify = () => toast("Text copied!");
     const options = {
-        method: 'POST',
-        url: 'https://chatgpt-gpt4-ai-chatbot.p.rapidapi.com/ask',
-        headers: {
-            'content-type': 'application/json',
-            'X-RapidAPI-Key': '046a5bb2d0msh4a8219455fc79efp1cc81bjsnc8e5db27768e',
-            'X-RapidAPI-Host': 'chatgpt-gpt4-ai-chatbot.p.rapidapi.com'
-        },
-        data: {
-            query: inputText
-        }
+       // API stuff 
     };
 
 
